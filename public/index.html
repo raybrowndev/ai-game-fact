@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>👾 Fun Game Fact Generator</title>
+        <link rel="shortcut icon" type="image/png" href="/alien-favicon.png"/>
+        <link rel="stylesheet" href="/style.css">
+        
+    </head>
+
+    <body>
+        <main>
+            <div class="content">
+                <p id="fact-paragraph" class="fact"></p>
+                <div class="logo">👾</div>
+            </div>
+        </main>
+    </body>
+
+    <script>
+        const factParagraph = document.getElementById('fact-paragraph');
+
+        fetch('/fact')
+            .then(response => response.json())
+            .then(data => {
+                data.fact.split('\n').forEach(line => {
+                    const span = document.createElement('span');
+                    span.textContent = line;
+                    factParagraph.appendChild(span);
+                });
+            });
+
+        setTimeout(() => {
+            document.querySelector('.logo').classList.add('visible');
+            }, 2000);
+            
+    </script>
+
+</html>
