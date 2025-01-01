@@ -1,5 +1,7 @@
 # 👾 Fun AI Game Fact Generator
 
+<img title="game-mock-up" alt="game-mock-up" src="public/ai-game-photo-mock.png">
+
 ## 🛠️ Tech Stack
 This project utilizes a variety of technologies to create an engaging and interactive experience:
 - **JavaScript**: Core programming language used for functionality.
