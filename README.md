@@ -16,11 +16,11 @@ This project utilizes a variety of technologies to create an engaging and intera
 ---
 
 ## 🌟 Description
-The Quote Generator is an interactive web application designed to provide users with **fun fact about the history of retro gaming**. It leverages artificial intelligence to craft unique, meaningful quotes on every request. Here's what the app does:
+The Fact Generator is an interactive web application designed to provide users with **fun fact about the history of retro gaming**. It leverages artificial intelligence to craft unique, gane facts. Here's what the app does:
 
 - **Dynamic Quote Generation**: 
-   - Each visit or interaction with the app prompts the OpenAI API to generate a fresh Islamic quote.  
-   - Quotes are designed to be thought-provoking and aligned with Islamic teachings and values.
+   - Each visit or interaction with the app prompts the OpenAI API to generate a fresh game fact quote.  
+   - Ther fun facts are designed to show fun facts about retro games.
    
 - **User-Friendly Interface**:
    - A clean and simple interface ensures the focus remains on the quotes.
@@ -60,13 +60,6 @@ The Quote Generator is an interactive web application designed to provide users 
   - Houses the AI service that communicates with OpenAI.
 - **`app.js`**:
   - Main application logic, including API routing.
-
----
-
-## 🎯 Future Enhancements
-- Add a feature to categorize quotes by theme (e.g., **Gratitude**, **Faith**, **Patience**).
-- Include a "Copy to Clipboard" button for sharing quotes.
-- Expand the app to support multiple languages.
 
 ---
 
