@@ -37,7 +37,7 @@ The Fact Generator is an interactive web application designed to provide users w
 2. **Client**:
    - JavaScript fetches the quote from the server and dynamically displays it on the page.
 3. **AI Integration**:
-   - The app sends prompts to the OpenAI API, instructing it to craft Islamic quotes that are both meaningful and inspiring.
+   - The app sends prompts to the OpenAI API, instructing it to craft gaming facts of retro games.
 
 ---
 
