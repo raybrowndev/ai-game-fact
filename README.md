@@ -4,7 +4,7 @@
 <img src="/public/ai-game-photo-mock.png" alt="game-preview-mock-up">
 
 ## 🛠️ Tech Stack
-This project utilizes a variety of technologies to create an engaging and interactive experience:
+This project uses a variety of technologies to create an engaging and interactive experience:
 - **JavaScript**: Core programming language used for functionality.
 - **Express.js**: Backend framework for routing and server setup.
 - **OpenAI API**: Powers the AI-generated quotes.
@@ -27,7 +27,7 @@ The Fact Generator is an interactive web application designed to provide users w
    - Responsive design for optimal viewing on different devices.
 
 - **Static Assets**:
-   - A `style.css` file enhances the aesthetics of the page with custom styling.
+   - A `style.css` file includes custom styling.
    - Public directory serves static assets seamlessly.
 
 ---
@@ -60,10 +60,3 @@ The Fact Generator is an interactive web application designed to provide users w
   - Houses the AI service that communicates with OpenAI.
 - **`app.js`**:
   - Main application logic, including API routing.
-
----
-
-## 📝 Setup Instructions
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/raybrowndev/poem-generator.git
